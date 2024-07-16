@@ -9,7 +9,7 @@ While life expectancy is generally recognized to be positively correlated with G
 ***
 
 ## Project Overview
-In order to obtain detailed data regarding life expectancy, GDP, and other potentially relevant health, social, and economic factors that spanned a long enough time period to be able to observe significant changes, we looked to several different sources. After using pandas to clean each obtained dataset, then merging them with the core life expectancy dataset, we visualized data using the matplotlib library.
+In order to obtain detailed data regarding life expectancy, GDP, and other potentially relevant health, social, and economic factors that spanned a long enough time period to be able to observe significant changes, we looked to several different sources. After using pandas to clean each obtained dataset, then merging them with the core life expectancy dataset, we visualized data using the matplotlib and plotly libraries.
 
 ***
 
@@ -25,11 +25,30 @@ Raw data is saved in /Resources/ directory. It includes:
 - Health expenditure data gathered via API request from the OECD
 - Assorted socioeconomic global development indicators from the World Bank
 
-Processes for cleaning raw data are saved in /cleaning_code/ directory. Cleaned data has been outputted to csv and saved in the /output/ directory.
+Processes for cleaning raw data are saved in /cleaning_code/ directory. Cleaned data has been outputted to csv and saved in the /output/csv/ directory.
 Since multiple data sources were used, the merge_master notebook in the parent directory was used to merge the cleaned indicator data (health, GDP, etc.) to the life expectancy data based on country and year.
 ***
 ## Analysis
-Processes for analyzing the output, cleaned data to obtain conclusions and charts are saved in /exploratory_code/ directory.
+Processes for analyzing the output, cleaned data to obtain conclusions are saved in /analysis/ directory and and charts are saved in /output/graphs/ directory.
+Our analysis focused on Life Expectancy for OECD countries, based on GDP, Health Expenditure, and Health Factors such as Substance abuse, Diseases, Injuries and Health Care coverages. We dealt with main 
+question - Why do OECD countries have variation in life expectancy? Specifically, why does the US have lower life expectancy compared to other wealthy countries in more recent years?
+
+- We picked up top 15 wealthiest countries and saw how Life Expectancy is getting changed over time. We 
+observe there is Steady rise in life expectancy across the top 15 wealthiest countries. But United States has experienced a stagnation in life expectancy over the past 20 years
+![Life Expectancy Over Time for Top 15 Wealthiest Countries](image.png)
+
+- We also have done statistical analysis for the same 15 countries, below is the result attached:
+![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](image-1.png)
+
+- We also treid to see how Life Expectancy co-relates to GDP. The correlation between GDP per Capita and Life Expectancy has come out to be 0.7, indicating a strong, positive correlation exists between these two variables
+![Life Expectancy vs. GDP per Capita in 2021](image-2.png)
+
+- Next we delved into Health Expenditure to see if that can impact Life Expectancy. This analysis proved rgar over recent years, United States has increasing Health Expenditure per Capita but stagnating Life Expectancy compared to other wealthy OECD countries
+![Life Expenctancy vs. Health Expenditure for the 15 Wealthiest countries](image-3.png)
+
+- Also Correlation graph between Life Expectancy and Healh Expenditure has shown thatr United States is an outlier with very high Health Expenditure per Capita but low Life Expectancy compared to other wealthy OECD countries
+![Correlation between Life Expenctancy vs. Health Expenditure](image-4.png)
+
 ***
 ## Conclusions
 
