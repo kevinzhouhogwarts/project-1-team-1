@@ -38,16 +38,16 @@ observe there is Steady rise in life expectancy across the top 15 wealthiest cou
 ![Life Expectancy Over Time for Top 15 Wealthiest Countries](output/graphs/image.png)
 
 - We also have done statistical analysis for the same 15 countries, below is the result attached:
-![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](image-1.png)
+![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](output/graphs/image-1.png)
 
 - We also treid to see how Life Expectancy co-relates to GDP. The correlation between GDP per Capita and Life Expectancy has come out to be 0.7, indicating a strong, positive correlation exists between these two variables
-![Life Expectancy vs. GDP per Capita in 2021](image-2.png)
+![Life Expectancy vs. GDP per Capita in 2021](output/graphs/image-2.png)
 
 - Next we delved into Health Expenditure to see if that can impact Life Expectancy. This analysis proved rgar over recent years, United States has increasing Health Expenditure per Capita but stagnating Life Expectancy compared to other wealthy OECD countries
-![Life Expenctancy vs. Health Expenditure for the 15 Wealthiest countries](image-3.png)
+![Life Expenctancy vs. Health Expenditure for the 15 Wealthiest countries](output/graphs/image-3.png)
 
 - Also Correlation graph between Life Expectancy and Healh Expenditure has shown thatr United States is an outlier with very high Health Expenditure per Capita but low Life Expectancy compared to other wealthy OECD countries
-![Correlation between Life Expenctancy vs. Health Expenditure](image-4.png)
+![Correlation between Life Expenctancy vs. Health Expenditure](output/graphs/image-4.png)
 
 ***
 ## Conclusions
