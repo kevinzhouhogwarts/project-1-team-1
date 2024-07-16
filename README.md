@@ -11,6 +11,7 @@ While life expectancy is generally recognized to be positively correlated with G
 ## Project Overview
 In order to obtain detailed data regarding life expectancy, GDP, and other potentially relevant health, social, and economic factors that spanned a long enough time period to be able to observe significant changes, we looked to several different sources. After using pandas to clean each obtained dataset, then merging them with the core life expectancy dataset, we visualized data using the matplotlib and plotly libraries.
 
+### Presentation Link (https://docs.google.com/presentation/d/1_NJrfP-YOKviRvoZGBxZmtLVZ576CRU_seQEoIyvTLk/edit#slide=id.g27839e5b07d_1_50)
 ***
 
 ## Data Sources and Cleaning
