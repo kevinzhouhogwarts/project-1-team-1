@@ -35,7 +35,7 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 
 - We picked up top 15 wealthiest countries and saw how Life Expectancy is getting changed over time. We 
 observe there is Steady rise in life expectancy across the top 15 wealthiest countries. But United States has experienced a stagnation in life expectancy over the past 20 years
-![Life Expectancy Over Time for Top 15 Wealthiest Countries](image.png)
+![Life Expectancy Over Time for Top 15 Wealthiest Countries](output/graphs/image.png)
 
 - We also have done statistical analysis for the same 15 countries, below is the result attached:
 ![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](image-1.png)
