@@ -68,7 +68,7 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 
 ### Health Outcomes in OECD Countries
 
-- Further investigating , we explored the different rates of death due to disease and injuries in the US, and how this correlated with life expectancy
+- Further investigating , we explored the different rates of death due to disease and injuries in the US, and how this correlated with life expectancy. The causes of death and life expectancy have a strong negative correlation.
 
 ![Addiction](output/graphs/addicition_graphs.png)
 ![Injury](output/graphs/injuries_graphs.png)
@@ -77,3 +77,4 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 ***
 ## Conclusions
 
+When looking into life expectancy in OECD countries, we found the the US life expectancy has stagnated over the past 20 years while other countries have continued to increase. We explored different variables and found that GDP and healthcare expenditure have a positive relationship with life expectancy. Since these factors were positively correlated but didn't explain why US life expectancy was lower, we explored further. We found two different factors that could potentially explain some of the discrepancy: The US has much lower healthcare coverage compared to the other countries in our study. Additionally, and perhaps related, there are much higher rates of death related to various diseases and injuries. This could explain part of the reason why life expectancy is lower in the US, but because life expectancy is related to so many things, there are many other options and routes to explore. 
