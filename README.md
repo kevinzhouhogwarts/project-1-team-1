@@ -23,37 +23,48 @@ Raw data is saved in /Resources/ directory. It includes:
 - Causes of death data from the Global Burden of Disease study carried out by the Institute for Health Metrics and Evaluation (IHME) at the University of Washington
 - Health expenditure data from the WHO
 - GDP data from the Maddison Project Database 2020 at the University of Groningen
-- Health expenditure data gathered via API request from the OECD
-- Assorted socioeconomic global development indicators from the World Bank
+- Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database
+- Assorted socioeconomic global development indicators from the World Bank World Development Indicators database
 
 Processes for cleaning raw data are saved in /cleaning_code/ directory. Cleaned data has been outputted to csv and saved in the /output/csv/ directory.
 Since multiple data sources were used, the merge_master notebook in the parent directory was used to merge the cleaned indicator data (health, GDP, etc.) to the life expectancy data based on country and year.
 ***
 ## Analysis
-Processes for analyzing the output, cleaned data to obtain conclusions are saved in /analysis/ directory and and charts are saved in /output/graphs/ directory.
-Our analysis focused on Life Expectancy for OECD countries, based on GDP, Health Expenditure, and Health Factors such as Substance abuse, Diseases, Injuries and Health Care coverages. We dealt with main 
+Processes for analyzing the output, cleaned data to obtain conclusions are saved in /analysis/ directory and charts are saved in /output/graphs/ directory.
+Our analysis focused on Life Expectancy for OECD countries, looking at variables such as GDP, health expenditure, healthcare coverage, and health factors such as deaths caused by substance abuse, diseases, and injuries. We dealt with the main 
 question - Why do OECD countries have variation in life expectancy? Specifically, why does the US have lower life expectancy compared to other wealthy countries in more recent years?
 
-- We picked up top 15 wealthiest countries and saw how Life Expectancy is getting changed over time. We 
-observe there is Steady rise in life expectancy across the top 15 wealthiest countries. But United States has experienced a stagnation in life expectancy over the past 20 years
+- We picked the top 15 wealthiest countries based on 2021 GDP and graphed how life expectancy changed over time. We observe there is a steady rise in life expectancy across the top 15 wealthiest countries. However, the United States has experienced a stagnation in life expectancy over the past approximately 20 years
+
+### Life Expectancy Over Time
 
 ![Life Expectancy Over Time for Top 15 Wealthiest Countries](output/graphs/image.png)
 
-- We also have done statistical analysis for the same 15 countries, below is the result attached:
+- We did a summary statistics analysis for the same 15 countries, showing the US has the lowest average life expectancy over the past 20 years. Additionally, the US has the lowest variation in life expectancy, exemplifying that stagnation while other countries have increased.
   
 ![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](output/graphs/image-1.png)
 
-- We also treid to see how Life Expectancy co-relates to GDP. The correlation between GDP per Capita and Life Expectancy has come out to be 0.7, indicating a strong, positive correlation exists between these two variables
+### Life Expectancy vs GDP
+
+- We then looked at how life expectancy relates to GDP. The correlation between GDP per Capita and Life Expectancy is 0.7, indicating a strong, positive correlation exists between these two variables.
   
 ![Life Expectancy vs. GDP per Capita in 2021](output/graphs/image-2.png)
 
-- Next we delved into Health Expenditure to see if that can impact Life Expectancy. This analysis proved rgar over recent years, United States has increasing Health Expenditure per Capita but stagnating Life Expectancy compared to other wealthy OECD countries
+### Life Expectancy vs Health Expenditure
+
+- Next we delved into health expenditure to explore the relationship with life expectancy. This analysis showed that over recent years, the United States has increasing health expenditure per capita, but stagnating life expectancy compared to other wealthy OECD countries.
   
 ![Life Expenctancy vs. Health Expenditure for the 15 Wealthiest countries](output/graphs/image-3.png)
 
-- Also Correlation graph between Life Expectancy and Healh Expenditure has shown thatr United States is an outlier with very high Health Expenditure per Capita but low Life Expectancy compared to other wealthy OECD countries
+- The correlation graph between life expectancy and health expenditure shows that United States is an outlier with very high health expenditure per capita but low life expectancy compared to other wealthy OECD countries.
   
 ![Correlation between Life Expenctancy vs. Health Expenditure](output/graphs/image-4.png)
+
+### Healthcare Coverage in Wealthiest OECD countries
+
+- Looking at healthcare coverage in OECD countries, it is clear the US has the lowest healthcare coverage.
+
+![Healthcare Coverage](output/graphs/government_health_coverage.png)
 
 ***
 ## Conclusions
