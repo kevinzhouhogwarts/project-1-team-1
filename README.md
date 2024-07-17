@@ -50,10 +50,9 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 ### Life Expectancy vs GDP
 
 - Life Expectancy vs. GDP per Capita since 1950 around the world
-  Watch Life Expectancy vs. GDP per Capita video below
-  
-![Link](https://youtu.be/9rHRsweo4uk)
-  
+
+![Life Expectancy vs. GDP per Capita around the world for 70 years](output/graphs/Fig1.html)
+
 
 - We then looked at how life expectancy relates to GDP. The correlation between GDP per Capita and Life Expectancy is 0.7, indicating a strong, positive correlation exists between these two variables.
   
