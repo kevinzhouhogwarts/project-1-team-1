@@ -62,9 +62,17 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 
 ### Healthcare Coverage in Wealthiest OECD countries
 
-- Looking at healthcare coverage in OECD countries, it is clear the US has the lowest healthcare coverage.
+- Looking at healthcare coverage in OECD countries, it is clear the US has the lowest healthcare coverage, with most countries at about 100% coverage. The graph below is for mandated government health coverage. 
 
 ![Healthcare Coverage](output/graphs/government_health_coverage.png)
+
+### Health Outcomes in OECD Countries
+
+- Further investigating , we explored the different rates of death due to disease and injuries in the US, and how this correlated with life expectancy
+
+![Addiction](output/graphs/addicition_graphs.png)
+![Injury](output/graphs/injuries_graphs.png)
+![Disease](output/graphs/disease_graphs.png)
 
 ***
 ## Conclusions
