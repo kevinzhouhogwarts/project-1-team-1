@@ -42,6 +42,7 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 
 ![Life Expectancy Over Time for Top 15 Wealthiest Countries](output/graphs/image.png)
 
+
 - We did a summary statistics analysis for the same 15 countries, showing the US has the lowest average life expectancy over the past 20 years. Additionally, the US has the lowest variation in life expectancy, exemplifying that stagnation while other countries have increased.
   
 ![Statistical Analysis of Life Expectancy for the 15 wealthiest countries](output/graphs/image-1.png)
@@ -49,8 +50,8 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 ### Life Expectancy vs GDP
 
 - Life Expectancy vs. GDP per Capita since 1950 around the world
-- 
-![Life Expectancy vs. GDP per Capita around the world for 70 years](https://youtu.be/9rHRsweo4uk)
+  
+[Life Expectancy vs. GDP per Capita around the world for 70 years](https://youtu.be/9rHRsweo4uk)
   
 
 - We then looked at how life expectancy relates to GDP. The correlation between GDP per Capita and Life Expectancy is 0.7, indicating a strong, positive correlation exists between these two variables.
