@@ -25,7 +25,7 @@ Raw data is saved in /Resources/ directory. It includes:
 - Causes of death data from the Global Burden of Disease study carried out by the Institute for Health Metrics and Evaluation (IHME) at the University of Washington
 - Health expenditure data from the WHO
 - GDP data from the Maddison Project Database 2020 at the University of Groningen
-- Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database.
+- Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database.                                    
    [A highlight to our API data retrieval code using the API cleaning_code](cleaning_code/OECD_Health_API_Data.ipynb)
 
 - Assorted socioeconomic global development indicators from the World Bank World Development Indicators database
@@ -53,7 +53,7 @@ question - Why do OECD countries have variation in life expectancy? Specifically
 
 - Life Expectancy vs. GDP per Capita since 1950 around the world
 
-[Life Expectancy vs. GDP Video Animation](https://youtu.be/9rHRsweo4uk)
+  [Life Expectancy vs. GDP Video Animation](https://youtu.be/9rHRsweo4uk)
 
 
 - We then looked at how life expectancy relates to GDP. The correlation between GDP per Capita and Life Expectancy is 0.7, indicating a strong, positive correlation exists between these two variables.
