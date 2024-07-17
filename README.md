@@ -25,7 +25,10 @@ Raw data is saved in /Resources/ directory. It includes:
 - Causes of death data from the Global Burden of Disease study carried out by the Institute for Health Metrics and Evaluation (IHME) at the University of Washington
 - Health expenditure data from the WHO
 - GDP data from the Maddison Project Database 2020 at the University of Groningen
-- Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database
+- Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database.
+
+![A highlight to our API data retrieval code using the API cleaning_code](OECD_Health_API_Data.ipynb)
+
 - Assorted socioeconomic global development indicators from the World Bank World Development Indicators database
 
 Processes for cleaning raw data are saved in /cleaning_code/ directory. Cleaned data has been outputted to csv and saved in the /output/csv/ directory.
