@@ -27,7 +27,7 @@ Raw data is saved in /Resources/ directory. It includes:
 - GDP data from the Maddison Project Database 2020 at the University of Groningen
 - Health expenditure data gathered via API request from the OECD, and healthcare insurance coverage data downloaded from the OECD database.
 
-![A highlight to our API data retrieval code using the API cleaning_code](OECD_Health_API_Data.ipynb)
+![A highlight to our API data retrieval code using the API cleaning_code](cleaning_code/OECD_Health_API_Data.ipynb)
 
 - Assorted socioeconomic global development indicators from the World Bank World Development Indicators database
 
